@@ -1,0 +1,6 @@
+# Install pytube (or) yt-dlp and optional packages:
+pip install pytube
+# OR (recommended):
+pip install yt-dlp
+# For GUI option (tkinter is usually builtin). If you want progress bars:
+pip install tqdm
