@@ -1,0 +1,7 @@
+def progress_hook(d):
+    if d['status'] == 'downloading':
+        print(d['_percent_str'], d['_eta_str'])
+    elif d['status'] == 'finished':
+        print("Finished, now post-processing...")
+
+ydl_opts = {'progress_hooks': [progress_hook]}
