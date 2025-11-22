@@ -1,7 +1,6 @@
 
 # 🎬 **YouTube Video Downloader Using Python**
 
----
 
 ## 🔹 1. Project Overview
 
@@ -9,8 +8,6 @@ The **YouTube Video Downloader** is a Python-based application designed to downl
 It leverages open-source Python libraries — **pytube** or **yt-dlp** — to extract video information and download media in various resolutions and formats (such as MP4 or MP3).
 
 The project provides both **Command Line Interface (CLI)** and an optional **Graphical User Interface (GUI)** using `Tkinter` for user-friendly interaction.
-
----
 
 ## 🔹 2. Objectives
 
@@ -22,15 +19,11 @@ The project provides both **Command Line Interface (CLI)** and an optional **Gra
 * To handle **playlists**, **progress updates**, and **error handling** efficiently.
 * To demonstrate the integration of Python with APIs and GUI development.
 
----
-
 ## 🔹 3. Motivation
 
 YouTube is one of the largest video platforms, but offline access is often limited. Many users need a personal tool to download educational lectures, music, or tutorials for offline use.
 
 This project aims to create a **lightweight, customizable, and open-source downloader** that can be easily modified for learning and educational purposes.
-
----
 
 ## 🔹 4. Technologies Used
 
@@ -41,8 +34,6 @@ This project aims to create a **lightweight, customizable, and open-source downl
 | **GUI Toolkit (optional)** | `Tkinter`                                                   |
 | **Additional Tools**       | `ffmpeg` (for audio conversion), `tqdm` (for progress bars) |
 | **OS Compatibility**       | Windows, macOS, Linux                                       |
-
----
 
 ## 🔹 5. System Requirements
 
@@ -58,7 +49,6 @@ This project aims to create a **lightweight, customizable, and open-source downl
 * Installed libraries (`pytube` or `yt-dlp`)
 * `ffmpeg` (optional, for audio conversion)
 
----
 
 ## 🔹 6. Libraries and Installation
 
@@ -78,9 +68,6 @@ If you plan to convert videos to MP3:
 # Windows: choco install ffmpeg
 # macOS: brew install ffmpeg
 # Ubuntu: sudo apt install ffmpeg
-```
-
----
 
 ## 🔹 7. Working Principle
 
@@ -135,10 +122,6 @@ If you plan to convert videos to MP3:
         ┌───────────┐
         │   End     │
         └───────────┘
-```
-
----
-
 ## 🔹 9. Source Code (CLI Version Using `yt-dlp`)
 
 ```python
@@ -259,8 +242,6 @@ root.mainloop()
 * **GUI Output:**
   Displays a window with input fields, a browse button, and a real-time progress update label.
 
----
-
 ## 🔹 12. Key Features
 
 ✅ Download videos in different resolutions (360p, 720p, 1080p).
@@ -270,8 +251,6 @@ root.mainloop()
 ✅ Progress tracking during downloads.
 ✅ Error handling for invalid URLs or network issues.
 
----
-
 ## 🔹 13. Advantages
 
 * Lightweight and open-source.
@@ -280,16 +259,12 @@ root.mainloop()
 * Can run on any platform with Python installed.
 * Optionally integrates with `ffmpeg` for higher-quality output.
 
----
-
 ## 🔹 14. Limitations
 
 * Depends on YouTube’s internal APIs; may need updates if site structure changes.
 * Some videos (age-restricted or private) may fail to download without authentication.
 * Requires `ffmpeg` installation for MP3 conversion.
 * Large files may take significant time or disk space.
-
----
 
 ## 🔹 15. Future Enhancements
 
@@ -300,8 +275,6 @@ root.mainloop()
 * Allow **resuming interrupted downloads**.
 * Build **Flask-based web interface** for remote downloading.
 
----
-
 ## 🔹 16. Applications
 
 * Downloading online lectures or tutorials.
@@ -309,7 +282,6 @@ root.mainloop()
 * Creating a personal video archive.
 * Educational project to learn API usage and file handling in Python.
 
----
 
 ## 🔹 17. Conclusion
 
@@ -324,7 +296,6 @@ Through this project, we learn:
 
 It’s a practical project that enhances your understanding of Python’s real-world application development.
 
----
 
 ## 🔹 18. References
 
